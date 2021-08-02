@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  form label {
+    width: 150px;
+    float: left;
+  }
+  form p {
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  button {
+    width: 325px;
+  }
+</style>
+<body>
+  <form action="">
+    <fieldset>
+      <label for="아이디">아이디</label>
+      <input type="text">
+      <input id="id" type="button" value="중복확인">
+      <br><br>
+
+      <label for="비밀번호">비밀번호</label>
+      <input id="paw" type="text">
+      <br>
+      <label for="비밀번호확인">비밀번호 확인</label>
+      <input id="paw_ch" type="text">
+      <p><strong>※ 10자리 이상, 특수키,숫자,영문자를 포함해야합니다.</strong></p>
+      <br>
+
+      <label for="전화번호">전화번호</label>
+      <input id="phone" type="text">
+      <br><br>
+
+      <label for="이메일">이메일</label>
+      <input type="text" style="width: 70px;">@<input type="text" style="width: 75px;">
+      <select id="mail">
+        <option value="directly">직접입력</option>
+        <option value="naver">naver.com</option>
+        <option value="gmail">gmail.com</option>
+        <option value="daum">daum.net</option>
+      </select>
+      <br><br>
+
+      <label for="우편번호 검색">우편번호</label>
+      <input type="text" style="width: 67px;">
+      <input type="button" value="우편번호검색">
+      <br>
+      <label for="주소"> 주소</label><input type="text">
+      <br>
+      <label for="상세주소"> 상세주소</label><input type="text">
+
+      <br>
+      <br>
+      <button>회원가입</button>
+    </fieldset>
+  </form>
+  
+</body>
+</html>
